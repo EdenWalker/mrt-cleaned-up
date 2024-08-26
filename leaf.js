@@ -220,7 +220,7 @@ document.querySelectorAll('.train-line-checkbox').forEach(checkbox => {
 let config = {
   method: 'get',
   maxBodyLength: Infinity,
-  url: 'http://datamall2.mytransport.sg/ltaodataservice/PCDRealTime?TrainLine=NEL',
+  url: 'https://datamall2.mytransport.sg/ltaodataservice/PCDRealTime?TrainLine=NEL',
   headers: { 
     'AccountKey': 'LI8D5j1CQYmo+ZwU5QdGtg=='
   }
