@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"/>
+     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
+     <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="leaflet.css"/>
+  <title>intergrated bus and mrt mapping</title>
+</head>
+<body>
+
+
+  <div id="map">
+    <!-- <button class="button">Hover Over Me</button> -->
+  </div>
+  <h1>Train Line</h1>
+  <div>
+ 
+    <label><input type="checkbox" class="train-line-checkbox" value="ALL" checked> All Stations</label>
+    <label><input type="checkbox" class="train-line-checkbox" value="SBST"> SBS Transit Stations</label>
+    <label><input type="checkbox" class="train-line-checkbox" value="SMRT"> SMRT Stations</label>
+    <label><input type="checkbox" class="train-line-checkbox" value="CCL"> Circle Line</label>
+    <label><input type="checkbox" class="train-line-checkbox" value="DTL"> Downtown Line</label>
+    <label><input type="checkbox" class="train-line-checkbox" value="EWL"> East West Line</label>
+    <label><input type="checkbox" class="train-line-checkbox" value="NEL"> North East Line</label>
+    <label><input type="checkbox" class="train-line-checkbox" value="NSL"> North South Line</label>
+    <label><input type="checkbox" class="train-line-checkbox" value="BPL"> Bukit Panjang LRT</label>
+    <label><input type="checkbox" class="train-line-checkbox" value="SLRT"> Sengkang LRT</label>
+    <label><input type="checkbox" class="train-line-checkbox" value="PLRT"> Punggol LRT</label>
+  </div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+crossorigin=""></script>
+
+<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js"></script>
+<script src="leaf.js"></script>
+
+
+
+</body>
+</html>
