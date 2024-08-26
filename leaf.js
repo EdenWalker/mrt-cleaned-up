@@ -64,7 +64,7 @@ function createClusterIcon(cluster) {
 async function fetchTrainLineData(trainLine) {
   const config = {
     method: 'get',
-    url: `http://datamall2.mytransport.sg/ltaodataservice/PCDRealTime?TrainLine=${trainLine}`,
+    url: `https://datamall2.mytransport.sg/ltaodataservice/PCDRealTime?TrainLine=${trainLine}`,
     headers: {
       'AccountKey': 'LI8D5j1CQYmo+ZwU5QdGtg=='
     }
